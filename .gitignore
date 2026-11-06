@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 node_modules/
 dist/
 .env
 .env.*
 !.env.example
 .DS_Store
+=======
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+.DS_Store
+>>>>>>> c53d0c88441ce53ac9d7873338f7efa1ddf69b0c
 *.log

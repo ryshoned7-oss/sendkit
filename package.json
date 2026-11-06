@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "sendkit-workspace",
   "private": true,
@@ -12,3 +13,19 @@
     "@types/node": "^26.6.6"
   }
 }
+=======
+{
+  "name": "sendkit-workspace",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:cli": "bun run packages/cli/src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6"
+  }
+}
+>>>>>>> c53d0c88441ce53ac9d7873338f7efa1ddf69b0c
